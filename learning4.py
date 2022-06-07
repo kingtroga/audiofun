@@ -28,3 +28,29 @@ len(wav_file)
 
 #changing audio parameters
 # the higher the values excluding channels the better.
+
+# Manipulating audio files with Pydub
+# Increasing the volume. (That's basically what you need)
+
+# Import AudioSegment and normalize
+from pydub import AudioSegment
+from pydub.effects import normalize
+
+
+# Wow you can contencate two audio files together using the audio operation,
+# Splitting your audio
+
+# Import phone call audio 
+phone_call = AudioSegment.from_file("phone
+
+
+
+
+
+
+
+
+
+
+
+
